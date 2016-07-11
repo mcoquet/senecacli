@@ -1,0 +1,26 @@
+{
+  "name": "senecacli",
+  "version": "0.0.1",
+  "description": " a command line tool to interact with a live network of senecajs microservices",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcoquet/senecacli.git"
+  },
+  "keywords": [
+    "seneca",
+    "microservices",
+    "repl",
+    "cli"
+  ],
+  "author": "Miguel Coquet <miguel@mcoquet.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcoquet/senecacli/issues"
+  },
+  "homepage": "https://github.com/mcoquet/senecacli#readme"
+}

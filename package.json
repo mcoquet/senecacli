@@ -4,6 +4,7 @@
   "description": " a command line tool to interact with a live network of senecajs microservices",
   "main": "app.js",
   "scripts": {
+    "demosrv": "node services.js --seneca.log.print",
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/mcoquet/senecacli/issues"
   },
-  "homepage": "https://github.com/mcoquet/senecacli#readme"
+  "homepage": "https://github.com/mcoquet/senecacli#readme",
+  "dependencies": {
+    "seneca": "^2.1.0",
+    "vorpal": "^1.11.2"
+  }
 }
